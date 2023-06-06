@@ -1,0 +1,31 @@
+{
+  "descriptionHash": "D06155DD239EAFCD3F72FC6649637D5AA7C3791A33D16ED7D48D32F82EF407DCAB40FA5435A0069E9AB3CA855DFC65B8C74AFD56B61D05F1A87C24FB72D1DE4F",
+  "descriptionLocation": "https://ca-webapi-fyufu46kwzeia.bluesand-b29aa4ef.eastus2.azurecontainerapps.io/spec/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.2.1",
+  "clientClassName": "GadgetClient",
+  "clientNamespaceName": "GadgetSDK",
+  "language": "Python",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/gadgets#GET"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
