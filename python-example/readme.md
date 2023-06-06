@@ -15,3 +15,12 @@ Run the following steps from the terminal
 * Open Kiota explorer and drop in the url
 * Select GET on the gadgets
 * Hit play
+
+
+## Step 3: Create requirements and wrapper class
+* create requirements.txt
+* run `pip install -r requirements.txt`
+* create `main.py` file as the wrapper class
+
+
+
